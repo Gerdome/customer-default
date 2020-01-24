@@ -24,9 +24,9 @@ Customer application and bureau data with the default tagging i.e., if a custome
 
 **Data Files**
 
- - **TrainingData.csv** - Data to train models where "default" indicator is available. 83,000 observations
+ - **TrainingData.csv** - Data to train models where "default" indicator is available. ***83,000 observations***
  - **Data_Dictionary.csv** - Explanations of variables
- - **TestX.csv** - Data for predictions (Response variable not available)
+ - **TestX.csv** - Data for predictions (Response variable not available). ***47,000 observations***
  - **submission.csv** - Final Predictions 
 
 
@@ -70,7 +70,7 @@ The Performance estimation is based on Cohen's kappa coefficient, since training
 See R scripts
 
 
-**3. Model Fine Tuning**
+**4. Model Aggregation and Predictions**
 
  - Aggregate top 3 models
  - simple mean-aggregate with good performance
