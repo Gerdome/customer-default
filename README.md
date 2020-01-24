@@ -22,6 +22,13 @@ Customer application and bureau data with the default tagging i.e., if a custome
  - Performance on other trades (Auto / Personal / Education / Mortgage Loan)
 
 
+**Data Files**
+
+ - **TrainingData.csv** - Data to train models where "default" indicator is available. 83,000 observations
+ - **Data_Dictionary.csv** - Explanations of variables
+ - **TestX.csv** - Data for predictions (Response variable not available)
+ - **submission.csv** - Final Predictions 
+
 
 ### **Machine Learning Pipeline**
 
