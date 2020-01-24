@@ -22,4 +22,4 @@ Customer application and bureau data with the default tagging i.e., if a custome
  - Performance on other trades (Auto / Personal / Education / Mortgage Loan)
 
 
-![]images/process.PNG)
+![](images/process.PNG)
