@@ -20,3 +20,12 @@ Customer application and bureau data with the default tagging i.e., if a custome
 
  - Performance on external credit card trades
  - Performance on other trades (Auto / Personal / Education / Mortgage Loan)
+
+
+```mermaid
+graph LR
+A(Data Cleaning)
+A --> C(Model Selection)
+C --> D(Fine Tuning)
+D --> E(Model Aggregation)
+```
